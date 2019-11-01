@@ -33,9 +33,10 @@ vehicles = [
     Motorcycle(),
 ]
 
+# Go through the vehicles list and print the result of calling drive() on each.
+
+
 for v in vehicles:
     v.drive()
 
-# Go through the vehicles list and print the result of calling drive() on each.
 
-# TODO
