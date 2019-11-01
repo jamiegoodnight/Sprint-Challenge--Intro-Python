@@ -19,7 +19,8 @@ class GroundVehicle():
 # Override the drive() method in Motorcycle so that it returns "BRAAAP!!"
 
 class Motorcycle():
-    def __init__(self, 2):
+    def __init__(self):
+        super().__init__(2)
     def drive(self):
         print("BRAAAP")
 
